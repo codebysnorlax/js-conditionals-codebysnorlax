@@ -34,4 +34,10 @@
  */
 export function canBorrowBook(memberAge, hasValidCard, overdueBooks) {
   // Your code here
+  let message;
+  if (memberAge > 6 && hasValidCard == true && overdueBooks == 0) {
+    
+  } else {
+    message = "Too young - must be at least 6 years old";
+  }
 }
