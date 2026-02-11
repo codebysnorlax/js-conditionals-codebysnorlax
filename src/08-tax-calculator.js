@@ -27,9 +27,8 @@
  */
 export function calculateTax(income) {
   // Your code here
-  if (income < 0) {
-    return 0
-  } else {
-    
-  }
+  let tax;
+  if (income < 0) return 0;
+  
 }
+console.log(calculateTax(50000));
